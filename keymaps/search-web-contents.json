@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-l": "search-web-contents:load",
+    "ctrl-j": "search-web-contents:load-with-cutting",
+    "ctrl-o": "search-web-contents:toggle"
+  }
+}

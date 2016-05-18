@@ -1,0 +1,21 @@
+{
+  "name": "search-web-contents",
+  "main": "./lib/search-web-contents",
+  "version": "0.1.0",
+  "description": "search by google with selected text",
+  "keywords": [
+      "web", "search"
+  ],
+  "activationCommands": {
+    "atom-workspace": "search-web-contents:toggle",
+    "atom-text-editor": "search-web-contents:load",
+    "atom-text-editor": "search-web-contents:load-with-cutting"
+  },
+  "repository": "https://github.com/atom/search-web-contents",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

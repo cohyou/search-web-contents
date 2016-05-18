@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle search-web-contents",
+        "command": "search-web-contents:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "search-web-contents",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "search-web-contents:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
